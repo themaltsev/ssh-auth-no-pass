@@ -1,3 +1,16 @@
+Если уже имеется ключ!!!!
+
+ssh-add -l  
+
+eval "$(ssh-agent -s)"   
+
+chmod 600 ~/.ssh/id_rsa   
+
+chmod 644 ~/.ssh/id_rsa.pub
+
+ssh user@host // пример ssh root@11.11.11.11 -p 22 (порт)
+
+
 На клиенте генерим ключи 
 
 ssh-keygen -t rsa      
