@@ -51,7 +51,7 @@ service ssh restart
 ssh user@host // пример ssh root@11.11.11.11 -p 22 (порт)
 
 
-Отключение проверки пароля
+Отключение авторизацию паролем
 
 nano /etc/ssh/sshd_config
 
