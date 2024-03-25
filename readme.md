@@ -12,6 +12,8 @@ chmod 644 ~/.ssh/id_rsa.pub
 
 ssh-add -l  
 
+Если агент не запущен, вы можете запустить его с помощью команды:
+
 eval "$(ssh-agent -s)"   
 
 ssh user@host // пример ssh root@11.11.11.11 -p 22 (порт)
